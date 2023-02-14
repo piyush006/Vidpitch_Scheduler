@@ -99,9 +99,13 @@ public class Video_Scheduler {
 		   String compare = start.substring(1,11);
 		   System.out.println(compare);
 		   String Status1 = status1.get(0);
+		   System.out.println(Status1);
 		   String Status2 = status1.get(1);
+		   System.out.println(Status2);
 		   String Status3 = status1.get(2);
+		   System.out.println(Status3);
 		   String Status4 = status1.get(3);
+		   System.out.println(Status4);
 			  
 		   
 		   if (compare.equals(str)) {

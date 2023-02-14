@@ -38,5 +38,6 @@
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/software/postgresql-42.5.0.jar"/>
 	<classpathentry kind="src" path="/Automation"/>
+	<classpathentry kind="src" path="/VIdeoMS"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
