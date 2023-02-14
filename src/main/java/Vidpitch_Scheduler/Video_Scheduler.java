@@ -13,7 +13,7 @@ import java.util.Calendar;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.excel.utility.Xls_Reader;
+import Excel.utility.Xls_Reader;
 
 public class Video_Scheduler {
 	
