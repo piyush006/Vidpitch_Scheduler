@@ -26,7 +26,11 @@ public class Video_Scheduler {
 	static String start_activated_on;
 	static String end_activated_on;
 	static String total_records_qualified_and_processed;
-	
+	 int totalrecords;
+	 int Count11;
+	 int Count12;
+	 int Count13;
+	 int Count14;
 
 	
 	@Test()
@@ -106,6 +110,30 @@ public class Video_Scheduler {
 		   System.out.println(Status3);
 		   String Status4 = status1.get(3);
 		   System.out.println(Status4);
+		   String Count1 = total_records_qualified_and_processed1.get(0);
+		   String Count2 = total_records_qualified_and_processed1.get(1);
+		   String Count3 = total_records_qualified_and_processed1.get(2);
+		   String Count4 = total_records_qualified_and_processed1.get(3);
+		   
+		   
+			  
+			   
+				   try {
+					Count11 = Integer.parseInt(Count1);
+					   Count12 = Integer.parseInt(Count2);
+					   Count13 = Integer.parseInt(Count3);
+					   Count14 = Integer.parseInt(Count4);
+				} catch (NumberFormatException e) {
+					// TODO Auto-generated catch block
+					
+					System.out.println("Null pointer handled");
+					
+				}
+			
+				
+						   
+			   totalrecords = Count11 + Count12 + Count13 + Count14;
+			   System.out.println("Total number of video processed: " + totalrecords);
 			  
 		   
 		   if (compare.equals(str)) {
